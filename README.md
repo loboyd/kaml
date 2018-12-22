@@ -4,14 +4,14 @@ writing notes. This will probably work by writing a transpiler from our
 language to HTML.
 
 ## Necessary features
-- [ ] plain text
 - [ ] left/center/right justification
-- [ ] italics
-- [ ] bold
-- [ ] underline
+- [x] plain text
+- [x] italics
+- [x] bold
+- [x] underline
 - [ ] superscripts
 - [ ] subscript
-- [ ] headers
+- [x] headers
 - [ ] images
 - [ ] links
 - [ ] ordered lists
