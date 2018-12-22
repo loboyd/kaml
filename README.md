@@ -5,6 +5,7 @@ language to HTML.
 
 ## Necessary features
 - [ ] plain text
+- [ ] left/center/right justification
 - [ ] italics
 - [ ] bold
 - [ ] underline
