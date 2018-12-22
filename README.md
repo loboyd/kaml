@@ -8,8 +8,8 @@ language to HTML.
 - [x] italics
 - [x] bold
 - [x] underline
-- [ ] superscripts
-- [ ] subscript
+- [x] superscripts
+- [x] subscript
 - [x] headers
 - [ ] images
 - [ ] links
