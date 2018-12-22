@@ -1,6 +1,12 @@
-This document will serve as a description of the KAML language.
+&T
+
+This document will serve as a description of the KAML language, and will be written in KAML for ease of use.
 
 
+&S // The style section allows for sheet-wide formatting defaults to be set. It also provides a space for user-created macros which will be available throughout the sheet. 
+
+
+&B
 
 
 # Header 1
