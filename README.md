@@ -4,6 +4,7 @@ writing notes. This will probably work by writing a transpiler from our
 language to HTML.
 
 ## Necessary features
+- [ ] left/center/right justification
 - [x] plain text
 - [x] italics
 - [x] bold

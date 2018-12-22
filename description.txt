@@ -1,0 +1,41 @@
+This document will serve as a description of the KAML language.
+
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+
+// comments
+
+__underline__
+_italics_
+*bold*
+
+super^{script}
+sub_{script}
+
+[links](https://github.com/loboyd/kaml)
+
+1. An
+2. Ordered
+3. List
+
+- An
+- Unordered
+- List
+
+// use dots to signify indentation
+1. Ordered
+.1. ordered
+.2. sub
+.3. list
+2. List
+.- unordered
+.- sub
+.- list
+
+>>> quoted text
+
+    code block (four leading spaces)
+`inline code`
+
