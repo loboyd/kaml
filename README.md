@@ -13,9 +13,10 @@ language to HTML.
 - [x] headers
 - [x] images
 - [x] left/center/right justification
-- [ ] links
-- [ ] ordered lists
-- [ ] unordered lists
+- [x] links
+- [x] ordered lists
+- [x] unordered lists
+- [x] nested lists
 - [ ] tables
 - [ ] quoted text
 - [ ] code blocks
