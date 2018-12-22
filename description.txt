@@ -36,6 +36,9 @@ sub_{script}
 
 >>> quoted text
 
-    code block (four leading spaces)
-`inline code`
+```
+def code_block():
+    pass
+```
+`inline_code()`
 
