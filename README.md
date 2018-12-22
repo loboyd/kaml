@@ -17,10 +17,9 @@ language to HTML.
 - [x] ordered lists
 - [x] unordered lists
 - [x] nested lists
-- [ ] tables
-- [ ] quoted text
-- [ ] code blocks
-- [ ] inline code
+- [x] tables
+- [x] code blocks
+- [x] inline code
 
 
 ## Nice-to-have features
