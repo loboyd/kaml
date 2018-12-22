@@ -19,6 +19,23 @@ p {
 .alignright {
     text-align: right;
 }
+ol {
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
+}
+
+ol ol > li {
+    display: block;
+}
+
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -20px;
+}
+ol, li, ul { margin-left: 20px; padding-left: 10px; } 
 </style>
 </HEAD>
 
@@ -49,32 +66,37 @@ p {
 </figure>
 
 <P><BR> Left-aligned text (by default).
-<P class="aligncenter">
+<P class="aligncenter"><BR> Center-aligned text.
+<P class="alignright"><BR> Right-aligned text.
 
+<P><a href="http://somegreatsite.com">This is a link to a website.</a>
 
+<ol>
+  <li>This</li>
+  <li>is</li>
+  <li>an ordered list.</li>
+</ol>
 
-<P><a href="http://somegreatsite.com">Link Name</a>
-</P>
+<ul>
+  <li>This</li>
+  <li>is</li>
+  <li>an unordered list.</li>
+</ul>
 
-<P>is a link to another nifty site
+<ol>
+  <li>This</li>
+  <li>is
+    <ol>
+      <li>a
+        <ol>
+            <li>nested</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>list.</li>
+</ol>
 
-<P> This is a new paragraph!
-
-<P> <B>This is a new paragraph!</B>
-
-
-
-
-
-
-
-
-<BR>
-<BR>
-<BR>
-<B><I>This is a new sentence without a paragraph break, in bold italics.</I></B>
-
-<HR>
 
 </BODY>
 
