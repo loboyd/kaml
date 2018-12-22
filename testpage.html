@@ -1,6 +1,20 @@
 <HTML>
-
 <HEAD>
+
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>   <!-- for mathjax compatibility -->
+
+<script type="text/x-mathjax-config">
+// This code is required for inline rendering. 
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      processEscapes: true
+    }
+  });
+</script>   <!-- for mathjax inline ability -->
+
 <style>
 body {background-color: powderblue;}
 h1, h2, h3, h4, h5, h6, p {
@@ -144,6 +158,10 @@ pre code {
   </code>
 </pre>
 <p><br> This is some highlighted code: <span class="code">print "Hello world!"</span>
+<p><br> This is an equation, automatically centered: $$x^2 = \frac{n^2+n}{2} = \sqrt{450}$$ 
+<p><br> This is an equation, hopefully in-line: &emsp;&emsp; $g^{\rho\mu}g_{\mu\nu} = \delta^{\rho}_{\nu}$
+
+<p><a href="http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm"> This is good documentation for MathJax.
 
 </BODY>
 </HTML>

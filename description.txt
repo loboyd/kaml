@@ -62,4 +62,10 @@ now not bold, still right justified
 </j>>
 now back to normal
 
+In-line equation: $\int L d\tau = \mathcal{S}$
+Block equation:
+$$
+\pi(\vec{x}) \equiv \pd{\mathcal{L}}{\dot{\phi}(\vec{x})}
+$$
+
 
