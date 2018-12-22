@@ -1,5 +1,8 @@
 This document will serve as a description of the KAML language.
 
+
+
+
 # Header 1
 ## Header 2
 ### Header 3
@@ -14,7 +17,9 @@ _italics_
 super^{script}
 sub_{script}
 
-[links](https://github.com/loboyd/kaml)
+[lnk](https://github.com/loboyd/kaml)
+[img](jethrotull.jpg)
+
 
 1. An
 2. Ordered
@@ -34,11 +39,27 @@ sub_{script}
 .- sub
 .- list
 
->>> quoted text
 
 ```
 def code_block():
     pass
 ```
 `inline_code()`
+
+j< left justify
+j= center justify
+j> right justify
+
+[[ this | is \\
+    a   | table ]]
+
+<*>
+format until further notice, e.g bolding
+<j>>
+still default bold here, but right justified
+</*>
+now not bold, still right justified
+</j>>
+now back to normal
+
 
